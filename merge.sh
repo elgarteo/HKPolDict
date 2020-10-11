@@ -4,7 +4,7 @@ echo "===============Hong Kong Politics Dictionary==============="
 for ((i=0; i<${#files[@]}; i++)); do
         echo "[$((i + 1))] ${files[${i}]}"
 done
-echo "==> File(s) to merge: (\"0\" to merge all) (eg: \"1\" \"1 5 7\")"
+echo "==> Files to merge: (\"0\" to merge all) (eg: \"1 5 7\")"
 printf "==> "
 read target
 if [ "$target" = "0" ]

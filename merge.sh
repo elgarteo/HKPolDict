@@ -1,5 +1,5 @@
 #!/bin/bash
-files=(government lawmaker media misc official organisation person place policy slang)
+files=(government media organisation person place policy slang)
 echo "===============Hong Kong Politics Dictionary==============="
 for ((i=0; i<${#files[@]}; i++)); do
         echo "[$((i + 1))] ${files[${i}]}"
